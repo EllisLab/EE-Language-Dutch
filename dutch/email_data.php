@@ -1,221 +1,167 @@
 <?php
 
-
-/* -------------------------------------
-/*  Notification of Full PM InBox
-/* -------------------------------------*/
-
-function pm_inbox_full_title()
-{
-return <<<EOF
-Uw Priv&233; berichten box is vol
-EOF;
-}
-
-function pm_inbox_full()
-{
-return <<<EOF
-{recipient_name},
-
-{sender_name} heeft geprobeerd u een Priv&233; bericht te sturen,
-maar uw Inbox is vol, de limiet van {pm_storage_limit} is overschreven.
-
-Log in en verwijder overbodige berichten van u op:
-{site_url}
-EOF;
-}
-/* END */
-
-
-/* -------------------------------------
-/*  Notification of Forum Topic Moderation
-/* -------------------------------------*/
-
-function forum_moderation_notification_title()
-{
-return <<<EOF
-Moderator bericht in {forum_name}
-EOF;
-}
-
-function forum_moderation_notification()
-{
-return <<<EOF
-{name_of_recipient}, een moderator heeft je thread {moderation_action}.
-
-De titel van de thread is:
-{title}
-
-De thread kan via onderstaande url bezocht worden:
-{thread_url}
-EOF;
-}
-/* END */
-
 //---------------------------------------------------
 //	Admin Notification of Mailinglist subscription
 //--------------------------------------------------
 
-function admin_notify_mailinglist_title()
+if ( ! function_exists('admin_notify_mailinglist_title'))
 {
+	function admin_notify_mailinglist_title()
+	{
 return <<<EOF
-Iemand heeft zich geabonneerd op je mailinglijst
+Iemand heeft zich ingeschreven voor uw mailinglijst.
 EOF;
+	}
 }
 
-function admin_notify_mailinglist()
+if ( ! function_exists('admin_notify_mailinglist'))
 {
+	function admin_notify_mailinglist()
+	{
 return <<<EOF
-Een nieuwe mailinglijst abonnement is geaccepteerd.
+Een nieuwe mailinglijst inschrijving is geaccepteerd. 
 
-Email Adres: {email}
-Mailinglijst: {mailing_list}
+Email Address: {email}
+Mailing List: {mailing_list}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Entry
 //--------------------------------------------------
 
-function admin_notify_entry_title()
+if ( ! function_exists('admin_notify_entry_title'))
 {
+	function admin_notify_entry_title()
+	{
 return <<<EOF
-Een nieuw weblog bericht is geplaatst
+Een nieuw Channel bericht is geplaatst.
 EOF;
+	}
 }
 
-function admin_notify_entry()
+if ( ! function_exists('admin_notify_entry'))
 {
+	function admin_notify_entry()
+	{
 return <<<EOF
-Een nieuw bericht is geplaatst in de volgende weblog:
-{weblog_name}
+Een nieuw bericht is geplaatst in het volgende channel:
+{channel_name}
 
 De titel van het bericht is:
 {entry_title}
 
-Posted by: {name}
+Geplaatst door: {name}
 Email: {email}
 
-Om het bericht te lezen ga naar: 
+Om het bericht te lezen klik op de volgende link:
 {entry_url}
 
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Member Registrations
 //--------------------------------------------------
 
-function admin_notify_reg_title()
+if ( ! function_exists('admin_notify_reg_title'))
 {
+	function admin_notify_reg_title()
+	{
 return <<<EOF
-Nieuw lid geregistreerd
+Notificatie van een nieuwe registratie
 EOF;
+	}
 }
 
-function admin_notify_reg()
+if ( ! function_exists('admin_notify_reg'))
 {
+	function admin_notify_reg()
+	{
 return <<<EOF
-De volgende persoon heeft zich geregistreerd: {name}
+Nieuwe registratie site: {site_name}
 
-Op: {site_name}
+Schermnaam: {name}
+Gebruikersnaam: {username}
+E-mail: {email}
 
-De URL van je Control Panel: {control_panel_url}
+Uw control panel URL: {control_panel_url}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Comment
 //--------------------------------------------------
 
-function admin_notify_comment_title()
+if ( ! function_exists('admin_notify_comment_title'))
 {
+	function admin_notify_comment_title()
+	{
 return <<<EOF
 Er is een reactie geplaatst
 EOF;
+	}
 }
 
-function admin_notify_comment()
+if ( ! function_exists('admin_notify_comment'))
 {
+	function admin_notify_comment()
+	{
 return <<<EOF
-Er is een reactie gekomen op uw bericht van de volgende site:
-{weblog_name}
+Er is een reactie geplaatst in het volgende channel:
+{channel_name}
 
 De titel van het bericht is:
 {entry_title}
 
-U kunt het vinden op: 
+Te vinden op: 
 {comment_url}
 
 Geplaatst door: {name}
-Email: {email}
+E-mail: {email}
 URL: {url}
 Locatie: {location}
 
 {comment}
 EOF;
-}
-// END
-
-
-//---------------------------------------------------
-//	Admin Notification of New Trackback
-//--------------------------------------------------
-
-function admin_notify_trackback_title()
-{
-return <<<EOF
-U heeft een trackback ontvangen
-EOF;
+	}
 }
 
-function admin_notify_trackback()
-{
-return <<<EOF
-Er is zojuist een Trackback ontvangen op het volgende bericht:
-{entry_title}
-
-U kunt het vinden op: 
-{comment_url}
-
-De Trackback is afkomstig van de volgende site:
-{sending_weblog_name}
-
-Titel van het bericht:
-{sending_entry_title}
-
-URL van de site:
-{sending_weblog_url}
-EOF;
-}
-// END
 
 
 //---------------------------------------------------
 //	Membership Activation Instructions
 //--------------------------------------------------
 
-function mbr_activation_instructions_title()
+if ( ! function_exists('mbr_activation_instructions_title'))
 {
+	function mbr_activation_instructions_title()
+	{
 return <<<EOF
-Uw activeringscode
+Bijgevoegd uw activatiecode
 EOF;
+	}
 }
 
-function mbr_activation_instructions()
+if ( ! function_exists('mbr_activation_instructions'))
 {
+	function mbr_activation_instructions()
+	{
 return <<<EOF
-Dank u wel dat u zich geregistreerd heeft. 
+Bedankt voor uw registratie
 
-Om uw account te activeren moet u op onderstaande link klikken:
+Om uw account te activeren, klik op de volgende link:
 
-{activation_url}
+{unwrap}{activation_url}{/unwrap}
 
 Bedankt!
 
@@ -223,39 +169,46 @@ Bedankt!
 
 {site_url}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Member Forgotten Password Instructions
 //--------------------------------------------------
 
-function forgot_password_instructions_title()
+if ( ! function_exists('forgot_password_instructions_title'))
 {
+	function forgot_password_instructions_title()
+	{
 return <<<EOF
 Login informatie
 EOF;
+	}
 }
 
-function forgot_password_instructions()
+if ( ! function_exists('forgot_password_instructions'))
 {
+	function forgot_password_instructions()
+	{
 return <<<EOF
-Beste {name},
+{name},
 
-Om uw wachtwoord te resetten kunt u op onderstaande link klikken
+Om uw wachtwoord te wijzigen, ga naar de volgende pagina:
 
 {reset_url}
 
-Uw wachtwoord zal dan automatisch gereset worden en een nieuw wachtwoord zal automatisch toegestuurd worden via de mail.
+Uw wachtwoord zal automatisch gereset worden en een nieuw wachtwoord ontvangt u per e-mail.
 
-Als je je wachtwoord niet wilt resetten, doe dan verder niets met dit bericht. Het zal automatisch naar 24 uur verlopen.
+Indien u niet uw wachtwoord wilt wijzigen, negeer deze e-mail dan. Na 24 uur zal deze link niet meer actief zijn.
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-// END
+
 
 
 
@@ -263,19 +216,24 @@ EOF;
 //	Reset Password Notification
 //--------------------------------------------------
 
-function reset_password_notification_title()
+if ( ! function_exists('reset_password_notification_title'))
 {
+	function reset_password_notification_title()
+	{
 return <<<EOF
-Nieuwe log-in gegevens
+Uw nieuwe login informatie
 EOF;
+	}
 }
 
-function reset_password_notification()
+if ( ! function_exists('reset_password_notification'))
 {
+	function reset_password_notification()
+	{
 return <<<EOF
-Hallo {name},
+{name},
 
-Hierbij uw nieuwe log-in gegevens:
+Hier is uw nieuwe login informatie:
 
 Gebruikersnaam: {username}
 Wachtwoord: {password}
@@ -283,8 +241,9 @@ Wachtwoord: {password}
 {site_name}
 {site_url}
 EOF;
+	}
 }
-// END
+
 
 
 
@@ -292,82 +251,100 @@ EOF;
 //	Validated Member Notification
 //--------------------------------------------------
 
-function validated_member_notify_title()
+if ( ! function_exists('validated_member_notify_title'))
 {
+	function validated_member_notify_title()
+	{
 return <<<EOF
-Uw account is geactiveerd
+Uw lidmaatschap is geactiveerd
 EOF;
+	}
 }
 
-function validated_member_notify()
+if ( ! function_exists('validated_member_notify'))
 {
-return <<<EOF 
-Hallo {name},
+	function validated_member_notify()
+	{
+return <<<EOF
+{name},
 
-Uw account is geactiveerd en kan nu worden gebruikt.
+Uw lidmaatschap is geactiveerd en klaar om te gebruiken.
 
 Bedankt!
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Decline Member Validation
 //--------------------------------------------------
 
-function decline_member_validation_title()
+if ( ! function_exists('decline_member_validation_title'))
 {
+	function decline_member_validation_title()
+	{
 return <<<EOF
-Your membership account has been declined
+Uw lidmaatschap is afgewezen.
 EOF;
+	}
 }
 
-function decline_member_validation()
+if ( ! function_exists('decline_member_validation'))
 {
+	function decline_member_validation()
+	{
 return <<<EOF
 {name},
 
-We're sorry but our staff has decided not to validate your membership.
+Sorry, maar onze staf heeft bepaalt uw account niet te activeren.
 
 {site_name}
 {site_url}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Mailinglist Activation Instructions
 //--------------------------------------------------
 
-function mailinglist_activation_instructions_title()
+if ( ! function_exists('mailinglist_activation_instructions_title'))
 {
+	function mailinglist_activation_instructions_title()
+	{
 return <<<EOF
-Email Bevestiging
+E-mail Bevestiging
 EOF;
+	}
 }
 
-function mailinglist_activation_instructions()
+if ( ! function_exists('mailinglist_activation_instructions'))
 {
+	function mailinglist_activation_instructions()
+	{
 return <<<EOF
-Bedankt voor uw aanmelding op de mailinglijst!
+Bedankt voor het inschrijven voor de "{mailing_list}" mailing lijst!
 
-Klik op onderstaande link om uw email adres te bevestigen.
+Klik op onderstaande link om uw e-mail adres te bevestigen.
 
-Als u niet toegevoegd wilt worden aan onze mailinglist, negeer deze email dan.
+Als u niet lid wilt worden negeer deze e-mail dan.
 
-{activation_url}
+{unwrap}{activation_url}{/unwrap}
 
 Bedankt!
 
 {site_name}
 EOF;
+	}
 }
-// END
+
 
 
 
@@ -375,89 +352,145 @@ EOF;
 //	Comment Notification
 //--------------------------------------------------
 
-function comment_notification_title()
+if ( ! function_exists('comment_notification_title'))
 {
+	function comment_notification_title()
+	{
 return <<<EOF
-Reactie op uw bericht
+Iemand heeft gereageerd op uw bericht
 EOF;
+	}
 }
 
-function comment_notification()
+if ( ! function_exists('comment_notification'))
 {
+	function comment_notification()
+	{
 return <<<EOF
-Iemand heeft gereageerd op het bericht waar u zich voor ingeschreven had:
-{weblog_name}
+{name_of_commenter} heeft gereageerd op een bericht waar u voor ingeschreven bent op:
+{channel_name}
 
 De titel van het bericht is:
 {entry_title}
 
-Als u de reactie wilt bekijken dan kunt u op onderstaande link klikken:
+U kunt de reactie zien op de volgende URL:
 {comment_url}
 
 {comment}
 
-Wilt u geen verdere emails meer ontvangen over dit bericht klik dan hier:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
+	}
 }
-// END
+
+//---------------------------------------------------
+//	Comments Opened Notification
+//--------------------------------------------------
+
+if ( ! function_exists('comments_opened_notification_title'))
+{
+	function comments_opened_notification_title()
+	{
+return <<<EOF
+Nieuwe reacties zijn toegevoegd
+EOF;
+	}
+}
+
+if ( ! function_exists('comments_opened_notification'))
+{
+	function comments_opened_notification()
+	{
+return <<<EOF
+Nieuwe reacties zijn toegevoegd aan het bericht waar u voor ingeschreven bent op:
+{channel_name}
+
+De titel van het bericht is:
+{entry_title}
+
+U kunt de reactie zien op de volgende URL:
+{comment_url}
+
+{comments}
+{comment} 
+{/comments}
+
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
+{notification_removal_url}
+EOF;
+	}
+}
+
 
 
 //---------------------------------------------------
 //	Admin Notification of New Gallery Comment
 //--------------------------------------------------
 
-function admin_notify_gallery_comment_title()
+if ( ! function_exists('admin_notify_gallery_comment_title'))
 {
+	function admin_notify_gallery_comment_title()
+	{
 return <<<EOF
-Je hebt zojuist een comentaar ontvangen
+U heeft een reactie ontvangen
 EOF;
+	}
 }
 
-function admin_notify_gallery_comment()
+if ( ! function_exists('admin_notify_gallery_comment'))
 {
+	function admin_notify_gallery_comment()
+	{
 return <<<EOF
-Je hebt zojuist een comentaar ontvangen voor de volgende foto galerij:
+U heeft een reactie ontvangen op de volgende fotogallery:
 {gallery_name}
 
 De titel van het bericht is:
 {entry_title}
 
-Locatie: 
+Op de volgende URL: 
 {comment_url}
 
 {comment}
 EOF;
+	}
 }
-// END
+
 
 //---------------------------------------------------
 //	Gallery Comment Notification
 //--------------------------------------------------
 
-function gallery_comment_notification_title()
+if ( ! function_exists('gallery_comment_notification_title'))
 {
+	function gallery_comment_notification_title()
+	{
 return <<<EOF
-Iemand heeft zojuist op je comentaar gereageerd
+Iemand heeft gereageerd op uw reactie
 EOF;
+	}
 }
 
-function gallery_comment_notification()
+if ( ! function_exists('gallery_comment_notification'))
 {
+	function gallery_comment_notification()
+	{
 return <<<EOF
-Iemand heeft zojuist gereageerd op het foto bericht waarvan je abonnee bent hier:
+Iemand heeft gereageerd op de foto waar u op geabonneerd bent:
 {gallery_name}
 
-Je kunt het bericht zien via de volgende URL:
+U kunt de reactie zien op de volgende URL:
 {comment_url}
 
 {comment}
 
-Voor het be‘indigen van meldingen voor dit comentaar, klik hier:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
+	}
 }
-// END
+
 
 
 
@@ -465,128 +498,222 @@ EOF;
 //	Admin Notification of New Forum Post
 //--------------------------------------------------
 
-function admin_notify_forum_post_title()
+if ( ! function_exists('admin_notify_forum_post_title'))
 {
+	function admin_notify_forum_post_title()
+	{
 return <<<EOF
-Iemand heeft zojuist een bericht geplaatst in {forum_name}
+Iemand heeft iets geplaatst in {forum_name}
 EOF;
+	}
 }
 
-function admin_notify_forum_post()
+if ( ! function_exists('admin_notify_forum_post'))
 {
+	function admin_notify_forum_post()
+	{
 return <<<EOF
-{name_of_poster} heeft zojuist een bericht geplaatst in {forum_name}
+{name_of_poster} heeft een nieuwe post geplaatst in {forum_name}
 
 De titel van de thread is:
 {title}
 
-De post bevindt zich hier:
+De post kan op de volgende URL gevonden worden:
 {post_url}
 
 {body}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Forum Post User Notification
 //--------------------------------------------------
 
-function forum_post_notification_title()
+if ( ! function_exists('forum_post_notification_title'))
 {
+	function forum_post_notification_title()
+	{
 return <<<EOF
-Iemand heeft zojuist een bericht geplaatst in {forum_name}
+Iemand heeft een bericht geplaatst in {forum_name}
 EOF;
+	}
 }
 
-function forum_post_notification()
+if ( ! function_exists('forum_post_notification'))
 {
+	function forum_post_notification()
+	{
 return <<<EOF
-Iemand heeft zojuist een bericht geplaatst in een thread waavan je abonnee bent:
+Iemand heeft een post gedaan in een thread waarop u geabonneerd bent op:
 {forum_name}
 
-De titel van de thread:
+De titel van de thread is:
 {title}
 
-De post bevindt zich hier:
+De post kan op de volgende URL gevonden worden:
 {post_url}
 
 {body}
 
-Om het ontvangen van meldingen voor dit comentaar te stoppen, klik hier:
+Om verdere e-mails over dit onderwerp te stoppen, klik hier:
 {notification_removal_url}
 EOF;
+	}
 }
-// END
+
 
 
 //---------------------------------------------------
 //	Private Message Notification
 //--------------------------------------------------
 
-function private_message_notification_title()
+if ( ! function_exists('private_message_notification_title'))
 {
+	function private_message_notification_title()
+	{
 return <<<EOF
-Iemand heeft je een privŽ bericht gezonden
+Iemand heeft u een prive bericht gestuurd.
 EOF;
+	}
 }
 
-function private_message_notification()
+if ( ! function_exists('private_message_notification'))
 {
+	function private_message_notification()
+	{
 return <<<EOF
 
 {recipient_name},
 
-{sender_name} heeft je zojuist een prive bericht gezonden met de titel '{message_subject}'.
+{sender_name} heeft u een prive bericht gestuurd met de titel â€˜{message_subject}â€™.
 
-Je kunt het privŽ bericht lezen, door in te loggen en je InBox te bekijken:
+U kunt uw privebericht zien door in te loggen op uw inbox via:
 {site_url}
 
-Om het ontvangen van meldingen van privŽ berichten te stoppen, schakel deze optie uit in je Email voorkeuren.
+Berichtt:
+
+{message_content}
+
+Om verdere notificaties over prive berichten te stoppen, zet deze functie dan uit in uw e-mail instellingen.
+
+{site_name}
+{site_url}
 EOF;
+	}
 }
-// END
+
+
+
+/* -------------------------------------
+/*  Notification of Full PM Inbox
+/* -------------------------------------*/
+if ( ! function_exists('pm_inbox_full_title'))
+{
+	function pm_inbox_full_title()
+	{
+return <<<EOF
+Uw prive berichten inbox is vol.
+EOF;
+	}
+}
+
+if ( ! function_exists('pm_inbox_full'))
+{
+	function pm_inbox_full()
+	{
+return <<<EOF
+{recipient_name},
+
+{sender_name} wilde u zojuist een prive bericht sturen,
+maar uw inbox is vol. Het overschrijft het maximum van {pm_storage_limit} berichten.
+
+Log in en verwijder overtollige berichten uit uw inbox op:
+{site_url}
+EOF;
+	}
+}
+
+
+
+/* -------------------------------------
+/*  Notification of Forum Topic Moderation
+/* -------------------------------------*/
+if ( ! function_exists('forum_moderation_notification_title'))
+{
+	function forum_moderation_notification_title()
+	{
+return <<<EOF
+Moderator bericht van {forum_name}
+EOF;
+	}
+}
+
+if ( ! function_exists('forum_moderation_notification'))
+{
+	function forum_moderation_notification()
+	{
+return <<<EOF
+{name_of_recipient}, een moderator heeft je thread {moderation_action}
+
+De titel van de thread is:
+{title}
+
+De thread kan gevonden worden op de volgende URL:
+{thread_url}
+EOF;
+	}
+}
+
 
 
 /* -------------------------------------
 /*  Notification of Forum Post Report
 /* -------------------------------------*/
-
-function forum_report_notification_title()
+if ( ! function_exists('forum_report_notification_title'))
 {
+	function forum_report_notification_title()
+	{
 return <<<EOF
-Post gemeld in {forum_name}
+Post gemeld op {forum_name}
 EOF;
+	}
 }
 
-function forum_report_notification()
+if ( ! function_exists('forum_report_notification'))
 {
+	function forum_report_notification()
+	{
 return <<<EOF
-{reporter_name} heeft een post gemeld geschreven door {author} in:
+{reporter_name} heeft een post geschreven door {author} gemeld op:
 {forum_name}
 
-De reden(en) voor deze melding zijn:
+De reden(en) voor melden zijnt:
 {reasons}
 
-Aanvullende notities van {reporter_name}:
+Eventuele extra opmerkingen van {reporter_name}:
 {notes}
 
-De post kunt u vinden op:
+De post kan gevonden worden op:
 {post_url}
 
-Content van de gemelde post:
+Bericht waarover gemeld is:
 {body}
 EOF;
+	}
 }
-/* END */
+
+
 
 /* -------------------------------------
 //  OFFLINE SYSTEM PAGE
 /* -------------------------------------*/
-
-function offline_template()
+if ( ! function_exists('offline_template'))
 {
+	function offline_template()
+	{
 return <<<EOF
 <html>
 <head>
@@ -609,8 +736,8 @@ font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 font-weight:		bold;
 letter-spacing:		.09em;
 text-decoration:	none;
-color:              #330099;
-background-color:   transparent;
+color:			  #330099;
+background-color:	transparent;
 }
   
 a:visited {
@@ -620,7 +747,7 @@ background-color:	transparent;
 
 a:hover {
 color:				#000;
-text-decoration:    underline;
+text-decoration:	underline;
 background-color:	transparent;
 }
 
@@ -656,7 +783,7 @@ color: 				#000;
 
 <h1>Systeem Offline</h1>
 
-<p>Deze website is op dit moment offline</p>
+<p>Deze website is momenteel offline</p>
 
 </div>
 
@@ -664,16 +791,18 @@ color: 				#000;
 
 </html>
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 //  User Messages Template
 /* -------------------------------------*/
-
-function message_template()
+if ( ! function_exists('message_template'))
 {
+	function message_template()
+	{
 return <<<EOF
 <html>
 <head>
@@ -699,8 +828,8 @@ a {
 font-family:		Verdana, Arial, Tahoma, Trebuchet MS, Sans-serif;
 letter-spacing:		.09em;
 text-decoration:	none;
-color:              #330099;
-background-color:   transparent;
+color:			  #330099;
+background-color:	transparent;
 }
   
 a:visited {
@@ -715,7 +844,7 @@ background-color:	transparent;
 
 a:hover {
 color:				#000;
-text-decoration:    underline;
+text-decoration:	underline;
 background-color:	transparent;
 }
 
@@ -777,24 +906,30 @@ color: 				#000;
 
 </html>
 EOF;
+	}
 }
-/* END */
+
 
 
 /* -------------------------------------
 //  Mailing List Template
 /* -------------------------------------*/
-
-function mailinglist_template()
+if ( ! function_exists('mailinglist_template'))
 {
+	function mailinglist_template()
+	{
 return <<<EOF
 {message_text}
 
-Om uw email van deze mailinglist te verwijderen klik hier:
+Om u uit te schrijven van deze e-mai,l klik hier:
 {if html_email}<a href="{unsubscribe_url}">{unsubscribe_url}</a>{/if}
 {if plain_email}{unsubscribe_url}{/if}
 EOF;
+	}
 }
-/* END */
 
-?>
+
+
+
+/* End of file email_data.php */
+/* Location: ./system/expressionengine/language/english/email_data.php */
