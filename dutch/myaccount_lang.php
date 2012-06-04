@@ -399,7 +399,7 @@ $lang = array(
 'Uw Huidige Wachtwoord',
 
 'invalid_email_address' => 
-'Het e-mail adres wat u gekozen heeft is niet geldig',
+'Het e-mail adres dat u gekozen heeft is niet geldig',
 
 'missing_username' => 
 'U moet een gebruikersnaam invoeren',
@@ -420,13 +420,13 @@ $lang = array(
 'Uw wachtwoord moet op z&#39;n minst 1 hoofdletter, 1 kleine letter en een cijfer bevatten',
 
 'invalid_password' => 
-'Het wachtwoord wat u invoerde is niet juist',
+'Het wachtwoord dat u invoerde is niet juist',
 
 'missing_email' => 
 'U moet een e-mailadres invoeren',
 
 'banned_email' => 
-'Het e-mailadres wat u invoerde is geblokkeerd',
+'Het e-mailadres dat u invoerde is geblokkeerd',
 
 'missmatched_passwords' => 
 'De 2 wachtwoorden die u invoerde komen niet overeen',
@@ -435,7 +435,7 @@ $lang = array(
 'De gebruikersnaam die u invoerd moet minimaal uit %x karakters bestaan',
 
 'password_too_short' => 
-'Het wachtwoord wat u invoerd moet minimaal uit %x karakters bestaan',
+'Het wachtwoord dat u invoerd moet minimaal uit %x karakters bestaan',
 
 'username_password_too_long' => 
 'Gebruikersnamen en wachtwoorden kunnen niet meer dan 32 karakters lang zijn',
@@ -447,10 +447,10 @@ $lang = array(
 'De weergave naam die u koos is niet beschikbaar',
 
 'email_taken' => 
-'Het e-mailadres wat u koos is niet beschikbaar',
+'Het e-mailadres dat u koos is niet beschikbaar',
 
 'valid_user_email' => 
-'Het e-mailadres wat u koos is niet geldig',
+'Het e-mailadres dat u koos is niet geldig',
 
 'password_based_on_username' => 
 'Het wachtwoord kan niet gebasseerd zijn op uw gebruikersnaam',
@@ -543,7 +543,7 @@ $lang = array(
 'Maak een Bladwijzer aan',
 
 'no_fields_assigned_to_channel' => 
-'Het Channel wat u gekozen heeft heeft geen Veldgroep aan zich toegekend.',
+'Het Channel dat u gekozen heeft heeft geen Veldgroep aan zich toegekend.',
 
 'bookmarklet_instructions' => 
 'Bewaar deze link in uw favorieten menu:',

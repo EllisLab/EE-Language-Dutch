@@ -9,7 +9,7 @@ $lang = array(
 'Als dit op Ja staat, kunnen de standaard instellingen hierboven overschreven worden in de e-mail',
 
 'moblog_sticky_entry' => 
-'Maak bericht Vast?',
+'Zet bericht vast?',
 
 'moblog_module_name' => 
 'Moblog',
