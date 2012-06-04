@@ -630,7 +630,7 @@ $lang = array(
 'U heeft een ongeldige directory geselecteerd',
 
 'security_failure' => 
-'Het bestandstype wat u probeert te uploaden is niet toegestaan',
+'Het bestandstype dat u probeert te uploaden is niet toegestaan',
 
 'thumb_not_created' => 
 'Thumbnail kan niet gemaakt worden. Controleer of de thumbnail map schrijfrechten heeft.',
@@ -639,7 +639,7 @@ $lang = array(
 'Ongeldig mime type. Bestand kan niet verwerkt worden',
 
 'exceeds_max_dimensions' => 
-'Bestands is groter dan de maximale afmeting en is niet verkleinbaar.',
+'Bestand is groter dan de maximale afmeting en is niet verkleinbaar.',
 
 'file_not_added_to_db' => 
 'Bestand kan niet opgeslagen worden in database.',

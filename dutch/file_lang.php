@@ -9,7 +9,7 @@ $lang = array(
 'Bestand',
 
 'file_module_description' => 
-'Bestands module',
+'Bestandsmodule',
 
 'translate' => 
 'Update',
