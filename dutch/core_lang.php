@@ -102,7 +102,7 @@ $lang = array(
 'De de door u ingevoerde URL bestaat niet',
 
 'submission_error' => 
-'Het formulier wat u verstuurde bevat de volgende fouten:',
+'Het formulier dat u verstuurde bevat de volgende fouten:',
 
 'general_error' => 
 'De volgende fouten zijn geconstateerd:',
@@ -111,10 +111,10 @@ $lang = array(
 'De taak die u wilde uitvoeren is ongeldig.',
 
 'captcha_required' => 
-'U moet het woord wat in de afbeelding staat invoeren',
+'U moet het woord dat in de afbeelding staat invoeren',
 
 'captcha_incorrect' => 
-'U heeft niet het juiste woord wat in de afbeelding staat ingevoerd',
+'U heeft niet het juiste woord dat in de afbeelding staat ingevoerd',
 
 'nonexistent_page' => 
 'De opgevraagde pagina is niet gevonden',

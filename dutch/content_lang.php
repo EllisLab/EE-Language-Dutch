@@ -78,13 +78,13 @@ $lang = array(
 'Vandaag',
 
 'edit_selected' => 
-'Wijzig geselcteerde',
+'Wijzig geselecteerde',
 
 'confirm_exit' => 
 'Wanneer u deze pagina verlaat zal alle ingevoerde data verloren gaan. Weet u zeker dat u deze pagina wilt verlaten?',
 
 'delete_selected' => 
-'Verwijder Geselecteerden',
+'Verwijder geselecteerde',
 
 'forum' => 
 'Forum',
@@ -96,7 +96,7 @@ $lang = array(
 'Dit veld maakt het mogelijk om een channelbericht te associ&#235;ren met een forum topic.',
 
 'forum_topic_id_exitsts' => 
-'Als een forum topic al bestaat en je wil hem laten associ&#235;eren met een bericht, voer dan het topic ID nummer in en laat de bovenstaande velden leeg.',
+'Als een forum topic al bestaat en je wilt hem laten associ&#235;eren met een bericht, voer dan het topic ID nummer in en laat de bovenstaande velden leeg.',
 
 'forum_title' => 
 'Forum Topic Titel',
@@ -129,7 +129,7 @@ $lang = array(
 'Afbeelding Locatie',
 
 'file_uploaded' => 
-'Bestand Verstuurd:',
+'Bestand toegevoegd',
 
 'place_file' => 
 'Plaats Bestand',
@@ -378,7 +378,7 @@ $lang = array(
 'Er is al een tab met deze naam',
 
 'illegal_characters' => 
-'Tab namen moeten alleen alfanumerieke karakters, underscores en liggende streepjes bevatten',
+'Tabnamen moeten alleen letters, cijfers, koppeltekens en/of underscores bevatten',
 
 'authors' => 
 'Auteurs',
@@ -525,7 +525,7 @@ $lang = array(
 'Einde',
 
 'expiration_date' => 
-'Datum Van Afloop',
+'Verloopdatum',
 
 'invalid_date_formatting' => 
 'De datum die u ingevoerd heeft is niet in het juiste formaat geschreven (jaar-maand-dag uur:minuut)',
@@ -537,10 +537,10 @@ $lang = array(
 'Categorie',
 
 'categories' => 
-'Categori&#235;n',
+'Categorie&#235;n',
 
 'no_categories' => 
-'Er zijn geen categori&#235;n toegekend aan dit Channel',
+'Er zijn geen categorie&#235;n toegekend aan dit Channel',
 
 'title' => 
 'Titel',
@@ -585,7 +585,7 @@ $lang = array(
 'Kies een upload map',
 
 'upload_to' => 
-'Upload naar %s',
+'Uploaden naar %s',
 
 'emoticons' => 
 'Smileys',

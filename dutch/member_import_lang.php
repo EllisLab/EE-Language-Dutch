@@ -174,7 +174,7 @@ $lang = array(
 'Standaard Taal',
 
 'timezone' => 
-'',
+'Tijdzone',
 
 'member_fields' => 
 'Leden veld',
