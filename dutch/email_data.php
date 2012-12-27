@@ -453,7 +453,7 @@ Je kunt het bericht zien via de volgende URL:
 
 {comment}
 
-Voor het be�indigen van meldingen voor dit comentaar, klik hier:
+Voor het be?indigen van meldingen voor dit comentaar, klik hier:
 {notification_removal_url}
 EOF;
 }
@@ -528,7 +528,7 @@ EOF;
 function private_message_notification_title()
 {
 return <<<EOF
-Iemand heeft je een priv� bericht gezonden
+Iemand heeft je een priv? bericht gezonden
 EOF;
 }
 
@@ -540,10 +540,10 @@ return <<<EOF
 
 {sender_name} heeft je zojuist een prive bericht gezonden met de titel '{message_subject}'.
 
-Je kunt het priv� bericht lezen, door in te loggen en je InBox te bekijken:
+Je kunt het priv? bericht lezen, door in te loggen en je InBox te bekijken:
 {site_url}
 
-Om het ontvangen van meldingen van priv� berichten te stoppen, schakel deze optie uit in je Email voorkeuren.
+Om het ontvangen van meldingen van priv? berichten te stoppen, schakel deze optie uit in je Email voorkeuren.
 EOF;
 }
 // END
