@@ -3,7 +3,7 @@ Dutch Translation Pack for ExpressionEngine 2.x
 ===============================================
 
 | Copyright (C) 2009-2013 EllisLab, Inc.
-| Original Dutch translation provided by: Willem de Boer (http://www.willemdeboer.com/)
+| Original Dutch translation provided by: Willem de Boer (@boer025)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
