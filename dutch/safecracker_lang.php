@@ -93,7 +93,7 @@ $lang = array(
 'Nee',
 
 'safecracker_valid_ee_date' => 
-'Het %s wat u verstuurd heeft is niet een geldig formaat (jaar-maand-dag uur:minuut)',
+'Het %s dat u verstuurd heeft is niet een geldig formaat (jaar-maand-dag uur:minuut)',
 
 'safecracker_no_data' => 
 'Geen data.',
@@ -156,7 +156,7 @@ $lang = array(
 'Het %s veld moet een getal groter dan 0 bevatten',
 
 'valid_ee_date' => 
-'Het %s wat u verstuurd heeft is niet een geldig formaat (jaar-maand-dag uur:minuut)',
+'Het %s dat u verstuurd heeft is niet een geldig formaat (jaar-maand-dag uur:minuut)',
 
 'translate' => 
 'Update',

@@ -564,7 +564,7 @@ $lang = array(
 'DEZE ACTIE KAN NIET ONGEDAAN GEMAAKT WORDEN',
 
 'captcha_explanation' => 
-'Een captcha is een afbeelding wat een beveilingscode bevat die gebruikers in moeten voeren. Lees de handleiding voor meer informatie.',
+'Een captcha is een afbeelding van een beveilingscode bevat die gebruikers in moeten voeren. Lees de handleiding voor meer informatie.',
 
 'back' => 
 'Terug',

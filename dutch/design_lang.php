@@ -552,7 +552,7 @@ $lang = array(
 'Snippets',
 
 'snippets_explanation' => 
-'Snippes zijn handig wanneer je kleine stukjes template of tags vaker moet gebruiken. Voor statische content wat geen ExpressionEngine tags, variabelen of PHP bevat, gebruik <a href =\'%s\'>Globale Variabelen</a>.',
+'Snippets zijn handig wanneer je kleine stukjes template of tags vaker moet gebruiken. Gebruik voor statische content, die geen ExpressionEngine-tags, variabelen of PHP bevat, <a href =\'%s\'>Globale Variabelen</a>.',
 
 'create_new_snippet' => 
 'Cre&#235;er een nieuwe Snippet',

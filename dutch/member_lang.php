@@ -483,10 +483,10 @@ $lang = array(
 'U bent nu uitgelogd.',
 
 'mbr_no_reset_id' => 
-'Het ID nummer wat u ingevoerd heeft is niet geldig. Controleer de link die u aangeklikt heeft.',
+'Het ID nummer dat u ingevoerd heeft is niet geldig. Controleer de link die u aangeklikt heeft.',
 
 'mbr_id_not_found' => 
-'Het code nummer wat u invoerde is niet gevonden in de database.',
+'Het code nummer dat u invoerde is niet gevonden in de database.',
 
 'mbr_username' => 
 'Gebruikersnaam',

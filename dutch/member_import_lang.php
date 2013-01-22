@@ -75,7 +75,7 @@ $lang = array(
 'Cre&#235;er custom velden',
 
 'auto_custom_field_blurb' => 
-'Genereen automatisch custom leden velden voor elk element wat niet overeenkomt met een standaard leden veld',
+'Genereren automatisch custom leden velden voor elk element wat niet overeenkomt met een standaard leden veld',
 
 'default_group_id' => 
 'Standaard Groep ID',

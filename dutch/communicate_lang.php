@@ -147,7 +147,7 @@ $lang = array(
 'Laagste',
 
 'empty_form_fields' => 
-'U heeft wat velden leeg gelaten.',
+'U heeft enkele velden leeg gelaten.',
 
 'email_sent_message' => 
 'Uw e-mail is verstuurd',
