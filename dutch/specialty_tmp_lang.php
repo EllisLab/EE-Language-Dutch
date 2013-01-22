@@ -6,7 +6,7 @@ $lang = array(
 'Admin notificiatie van een toevoeging aan de Mailing Lijst',
 
 'admin_notify_mailinglist_desc' => 
-'Deze template bevat het bericht wat een admin ontvang wanneer iemand zich inschrijft op een mailing lijst',
+'Deze template bevat het bericht dat een admin ontvang wanneer iemand zich inschrijft op een mailing lijst',
 
 'admin_notify_forum_post_desc' => 
 'Deze template bevat het bericht dat een admin ontvangt wanneer er een nieuwe forum post is.',
@@ -15,16 +15,16 @@ $lang = array(
 'Admin Notificatie over nieuwe Berichten',
 
 'admin_notify_entry_desc' => 
-'Deze template bevat het bericht wat ontvangers krijgen als er een nieuw bericht toegevoegd wordt',
+'Deze template bevat het bericht dat ontvangers krijgen als er een nieuw bericht toegevoegd wordt',
 
 'private_message_notification' => 
 'Priv&#233; Bericht notificatie',
 
 'private_message_notification_desc' => 
-'Deze template bevat het bericht wat ontvangers krijgen als er een nieuw Priv&#233; Bericht voor hen is.',
+'Deze template bevat het bericht dat ontvangers krijgen als er een nieuw Priv&#233; Bericht voor hen is.',
 
 'forum_post_notification_desc' => 
-'Deze template bevat het bericht wat ontvangers krijgen als iemand antwoord op zijn forumpost',
+'Deze template bevat het bericht dat ontvangers krijgen als iemand antwoord op zijn forumpost',
 
 'admin_notify_forum_post' => 
 'Admin notificatie van Forum Posts',
@@ -42,13 +42,13 @@ $lang = array(
 'Admin Berichten bij nieuwe reacties',
 
 'admin_notify_comment_desc' => 
-'Dit template bevat het bericht wat een admin ontvangt als er een nieuwe reactie geplaatst is.',
+'Dit template bevat het bericht dat een admin ontvangt als er een nieuwe reactie geplaatst is.',
 
 'admin_notify_reg' => 
 'Admin berichten bij nieuwe registratie van een lid',
 
 'admin_notify_reg_desc' => 
-'Dit template bevat het bericht wat een admin ontvangt als er een nieuw lid geregistreerd is',
+'Dit template bevat het bericht dat een admin ontvangt als er een nieuw lid geregistreerd is',
 
 'comment_notification' => 
 'Gebruikers berichten bij nieuwe reacties',
@@ -57,7 +57,7 @@ $lang = array(
 'Gebruikers berichten notificaties toegevoegd.',
 
 'comment_notification_desc' => 
-'Dit template bevat het bericht wat een gebruiker ontvangt wanneer iemand een reageert op een reactie.',
+'Dit template bevat het bericht dat een gebruiker ontvangt wanneer iemand een reageert op een reactie.',
 
 'forgot_password_instructions' => 
 'Instructies bij Vergeten van Wachtwoord',
@@ -75,7 +75,7 @@ $lang = array(
 'Instructies voor het Activeren van een Lid Account',
 
 'mbr_activation_instructions_desc' => 
-'Dit template bevat de instructie voor het activeren van het lid account wat gestuurd wordt naar mensen die zich geregistreerd hebben.',
+'Dit template bevat de instructie voor het activeren van het lid account dat gestuurd wordt naar mensen die zich geregistreerd hebben.',
 
 'reset_password_notification' => 
 'Bericht voor Resetten van Wachtwoord',

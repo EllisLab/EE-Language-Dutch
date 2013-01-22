@@ -18,7 +18,7 @@ $lang = array(
 'PNG afbeeldingen worden niet ondersteund',
 
 'imglib_jpg_or_png_required' => 
-'Het verklein protocol wat aangegeven staat in de voorkeuren werkt alleen met JPEG of PNG afbeeldingen.',
+'Het verklein protocol dat aangegeven staat in de voorkeuren, werkt alleen met JPEG of PNG afbeeldingen.',
 
 'imglib_copy_error' => 
 'Er is een fout opgetreden bij het vervangen van het bestand. Wees er zeker van dat de map beschrijfbaar is.',

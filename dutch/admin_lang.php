@@ -588,7 +588,7 @@ $lang = array(
 'Voeg een willekeurig nummer toe aan het Captcha woord',
 
 'plugin_no_curl_support' => 
-'De server ondersteunt niet de Curl library, wat deze functie wel nodig heeft.',
+'De server ondersteunt de Curl library niet, dit is wel vereist voor deze plugin functie.',
 
 'plugins' => 
 'Plugins',
@@ -690,7 +690,7 @@ $lang = array(
 'Categorie URL Indicator',
 
 'reserved_category_word_exp' => 
-'Als deze functie op &quot;ja&quot; zet zal je een zelf bepaald woord moeten kiezen.  Dit woord zal gebruikt worden in de URL om aan te geven aan het programma dat u een categorie wilt laten zien.  Let op: het woord wat je kiest kan niet de naam van een template groep of template zijn.',
+'Als deze functie op &quot;ja&quot; zet zal je een zelf bepaald woord moeten kiezen.  Dit woord zal gebruikt worden in de URL om aan te geven aan het programma dat u een categorie wilt laten zien.  Let op: het woord dat je kiest kan niet de naam van een template groep of template zijn.',
 
 'enable_sql_caching' => 
 'Cache Dynamische Channel Queries?',

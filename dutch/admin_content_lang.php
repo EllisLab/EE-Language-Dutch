@@ -624,7 +624,7 @@ $lang = array(
 'Categorie afbeelding URL',
 
 'category_img_blurb' => 
-'Dit is een optioneel veld wat je de mogelijkheid geeft een afbeelding toe te kennen aan je categorie&#235;n.',
+'Dit is een optioneel veld dat de mogelijkheid geeft een afbeelding toe te kennen aan je categorie&#235;n.',
 
 'category_parent' => 
 'Hoofd Category',

@@ -282,7 +282,7 @@ $lang = array(
 'vrijdag',
 
 'Saturday' => 
-'zaterdan',
+'zaterdag',
 
 'Jan' => 
 'jan',
