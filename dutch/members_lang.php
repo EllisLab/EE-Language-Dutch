@@ -126,7 +126,7 @@ $lang = array(
 'U kunt een deel of een volledig IP adres invoeren',
 
 'ip_search_too_short' => 
-'Het IP adres wat u ingevoerd heeft is te kort, het moet minimaal uit 3 karakters bestaan.',
+'Het IP adres dat u ingevoerd heeft is te kort, het moet minimaal uit 3 karakters bestaan.',
 
 'ip_search_no_results' => 
 'Uw zoekopdracht heeft geen resultaten opgeleverd',

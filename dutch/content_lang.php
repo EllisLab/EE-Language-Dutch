@@ -1044,7 +1044,7 @@ $lang = array(
 'U bekijkt de Publish Lay-out voor',
 
 'no_entry_to_update' => 
-'U probeert een bericht op te slaan wat niet bestaat',
+'U probeert een bericht op te slaan dat niet bestaat',
 
 'invalid_date' => 
 'De datum die u invoerde is niet geldig',

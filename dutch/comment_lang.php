@@ -204,10 +204,10 @@ $lang = array(
 'E-mailadres is verplicht',
 
 'cmt_invalid_email' => 
-'Het e-mailadres wat u invoerde is niet geldig',
+'Het e-mailadres dat u invoerde is niet geldig',
 
 'cmt_banned_email' => 
-'Het e-mailadres wat u invoerde is geblokkeerd',
+'Het e-mailadres dat u invoerde is geblokkeerd',
 
 'cmt_too_large' => 
 'De reactie die u invoerde bevat %n tekens. Uw bericht mag maximaal uit %x tekens bestaan.',
@@ -276,7 +276,7 @@ $lang = array(
 'U bent al ingeschreven voor deze reactie',
 
 'not_currently_subscribed' => 
-'U lijkt niet geabonneerd op het bericht ID wat u ingevoerd heeft ',
+'U lijkt niet geabonneerd op het bericht ID dat u ingevoerd heeft ',
 
 'invalid_subscription' => 
 'De URL die u opgeeft is ongeldig',
