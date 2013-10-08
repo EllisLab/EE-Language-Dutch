@@ -3,7 +3,7 @@ $lang = array(
 
 
 'forum_module_name' => 
-'Discussie Forum',
+'Discussieforum',
 
 'forum_module_description' => 
 'Discussie Forum Module',
@@ -21,7 +21,7 @@ $lang = array(
 'KB',
 
 'total_results' => 
-'Totaal Aantal Resultaten',
+'Totaal aantal resultaten',
 
 'expand' => 
 'Uitklappen',
@@ -33,16 +33,16 @@ $lang = array(
 'Powered by ExpressionEngine',
 
 'ee_discussion_forum' => 
-'ExpressionEngine Discussie Forum',
+'ExpressionEngine Discussieforum',
 
 'ee_forums' => 
 'ExpressionEngine Forums',
 
 'no_new_messages' => 
-'Geen Nieuwe Berichten',
+'Geen nieuwe berichten',
 
 'new_messages' => 
-'Nieuwe Berichten',
+'Nieuwe berichten',
 
 'post_permalink' => 
 'Permalink naar deze post',
@@ -60,7 +60,7 @@ $lang = array(
 'verplaatst',
 
 'select_theme' => 
-'Selecteer een Theme',
+'Selecteer een theme',
 
 'rss_feed' => 
 'RSS 2.0',
@@ -72,7 +72,7 @@ $lang = array(
 'Uw verzoek heeft geen resultaten opgeleverd',
 
 'no_feed_specified' => 
-'De URL die u opvraagt bevat geen actieve feed ID nummer',
+'De URL die u opvraagt bevat geen actief feed ID-nummer',
 
 'split' => 
 'Splitsen',
@@ -86,23 +86,27 @@ $lang = array(
 'can_not_split' => 
 'U bent niet gerechtigd om threads te splitsen in het forum dat u heeft aangegeven.',
 
+
+'logged_in_as' => 
+'Aangemeld als:',
+
 'merge' => 
 'Samenvoegen',
 
 'merge_threads' => 
-'Voeg Threads samen',
+'Voeg threads samen',
 
 'thread_title' => 
-'Thread Titel:',
+'Thread titel:',
 
 'merge_info' => 
 'De samenvoeg mogelijkheden geeft je de mogelijkheid om 2 threads in &#233;&#233;n enkele thread samen te voegen',
 
 'new_title' => 
-'Nieuwe Titel',
+'Nieuwe titel',
 
 'merge_url' => 
-'URL van de Thread om samen te voegen',
+'URL van de thread om samen te voegen',
 
 'merge_url_info' => 
 'Geef de URL of het topic ID aan van de thread die u met deze wilt samenvoegen',
@@ -114,13 +118,13 @@ $lang = array(
 'U kunt niet een topic samenvoegen het zichzelf',
 
 'report_topic' => 
-'Meld Topic',
+'Meld topic',
 
 'report_reply' => 
-'Meld Reactie',
+'Meld reactie',
 
 'report_info' => 
-'Deze meldfunctie geeft u de mogeklijheid een post te melden bij de forum moderators.',
+'Deze meldfunctie geeft u de mogelijkheid een post te melden bij de forum moderators.',
 
 'report_instructions' => 
 'Selecteer hieronder de reden waarom u onderstaande topic meldt, en voeg eventueel een notitie voor de moderators toe.',
@@ -156,31 +160,31 @@ $lang = array(
 'Doorzoek dit forum',
 
 'view_active_topics' => 
-'Bekijk de Actieve Topics van vandaag',
+'Bekijk de actieve topics van vandaag',
 
 'show_category' => 
-'Bekijk Categorie',
+'Bekijk categorie',
 
 'hide_category' => 
-'Verberg Categorie',
+'Verberg categorie',
 
 'show_stats' => 
-'Bekijk Statistieken',
+'Bekijk statistieken',
 
 'hide_stats' => 
-'Verberg Statistieken',
+'Verberg statistieken',
 
 'view_pending_topics' => 
-'Bekijk onbeantwoorde Posts',
+'Bekijk onbeantwoorde posts',
 
 'forum' => 
 'Forum:',
 
 'forums_offline' => 
-'Discussie Forums Offline',
+'Discussieforums offline',
 
 'forums_currenty_offline' => 
-'Onze discussie forums zijn momenteel offline. Onze excuses voor het ongemak',
+'Onze discussieforums zijn momenteel offline. Onze excuses voor het ongemak',
 
 'administrator' => 
 'Administrator',
@@ -192,10 +196,8 @@ $lang = array(
 'Foutmelding:',
 
 'home' => 
-'Forum Home',
+'Forum home',
 
-'logged_in_as' => 
-'Aangemeld als:',
 
 'username' => 
 'Gebruikersnaam',
@@ -219,16 +221,16 @@ $lang = array(
 'Uitloggen',
 
 'your_account' => 
-'Uw Account',
+'Uw account',
 
 'view_new_topics' => 
-'Bekijk Nieuwe Posts',
+'Bekijk nieuwe berichten',
 
 'mark_all_read' => 
-'Markeer Alle Posts als Gelezen',
+'Markeer alle berichten als gelezen',
 
 'welcome' => 
-'Welkom Gast',
+'Welkom gast',
 
 'last_visit_on' => 
 'Uw laatste bezoek was op:',
@@ -236,8 +238,11 @@ $lang = array(
 'register' => 
 'Registreer',
 
+'logged_in_as' =>
+'Ingelogd als:',
+
 'private_message' => 
-'Priv&#233; Berichten',
+'Priv&#233; berichten',
 
 'unread_pm' => 
 'Ongelezen:',
@@ -246,7 +251,7 @@ $lang = array(
 'Totaal:',
 
 'elapsed_time' => 
-'Script Uitgevoerd in {elapsed_time} seconden',
+'Script uitgevoerd in {elapsed_time} seconden',
 
 'search' => 
 'Zoeken',
@@ -264,22 +269,22 @@ $lang = array(
 'Bezoekersstatistieken',
 
 'total_guests' => 
-'Totaal Aantal Gasten:',
+'Aantal gasten:',
 
 'total_logged_in' => 
-'Totaal Aantal Aangemelde Gebruikers:',
+'Aantal aangemelde gebruikers:',
 
 'total_anonymous' => 
-'Totaal Aantal Anonieme Gebruikers:',
+'Aantal anonieme gebruikers:',
 
 'most_users_ever' => 
-'Het hooste aantal bezoekers ooit was',
+'Het hoogste aantal bezoekers ooit was',
 
 'visited_on' => 
 'op',
 
 'posted_on' => 
-'Gepost:',
+'Geplaatst:',
 
 'posted_by' => 
 'Auteur:',
@@ -291,28 +296,28 @@ $lang = array(
 '%x geleden',
 
 'total_registered_members' => 
-'Totaal Aantal Geregistreerde Leden',
+'Aantal geregistreerde leden',
 
 'newest_members' => 
-'Nieuwste Leden:',
+'Nieuwste leden:',
 
 'total_topics' => 
-'Totaal Aantal Topics:',
+'Totaal aantal topics:',
 
 'total_posts' => 
-'Totaal aantal Reacties:',
+'Totaal aantal reacties:',
 
 'total_replies' => 
-'Totaal aantal Reacties:',
+'Totaal aantal reacties:',
 
 'recent_posts' => 
-'Meest Recente Posts',
+'Meest recente berichten',
 
 'active_members' => 
-'Actieve Leden:',
+'Actieve leden:',
 
 'forum_name_heading' => 
-'Forum Naam',
+'Forumnaam',
 
 'total_topics_heading' => 
 'Topics',
@@ -330,7 +335,7 @@ $lang = array(
 'Thread',
 
 'edit_preferences' => 
-'Wijzig Voorkeuren',
+'Wijzig voorkeuren',
 
 'display_signatures' => 
 'Toon signatures in forum threads',
@@ -339,13 +344,13 @@ $lang = array(
 'Toon avatars in forum threads',
 
 'activate_thread' => 
-'Activeer Thread',
+'Activeer thread',
 
 'close_thread' => 
-'Sluit Thread',
+'Sluit thread',
 
 'post_info_heading' => 
-'Laatste Post Info',
+'Laatste berichtinfo',
 
 'total_views_heading' => 
 'Aantal keer bekeken',
@@ -357,25 +362,25 @@ $lang = array(
 'Moderators:',
 
 'recent_post' => 
-'Meest Recente Post',
+'Meest recente bericht',
 
 'most_recent_topics' => 
-'Meest Recente Topics',
+'Meest recente onderwerpen',
 
 'most_popular_posts' => 
-'Populairste Threads',
+'Populairste threads',
 
 'topic_heading' => 
-'Topic Titel',
+'Topictitel',
 
 'post_new_topic' => 
-'Nieuwe Topic',
+'Nieuw topic',
 
 'post_reply' => 
-'Post Reply',
+'Post reply',
 
 'fast_reply' => 
-'Snelle Reply',
+'Snelle reply',
 
 'no_topics' => 
 'Er zijn nog geen topics in dit forum',
@@ -384,34 +389,34 @@ $lang = array(
 'Titel',
 
 'new_topic' => 
-'Post een Nieuwe Topic',
+'Post een nieuwe topic',
 
 'new_topic_search' => 
-'Nieuwe Topic Zoeken',
+'Nieuwe topic zoeken',
 
 'edit_topic' => 
-'Wijzig Topic',
+'Wijzig topic',
 
 'new_reply' => 
-'Post een Nieuwe Reply',
+'Post een nieuwe reply',
 
 'edit_reply' => 
-'Wijzig een Reply',
+'Wijzig een reply',
 
 'body' => 
 'Bericht',
 
 'preview_post' => 
-'Voorbeeld Post',
+'Voorbeeld',
 
 'submit_post' => 
-'Plaatsen Post',
+'Plaats bericht',
 
 'update_post' => 
-'Wijzig Post',
+'Wijzig bericht',
 
 'empty_title_field' => 
-'Uw post moet een titel hebben',
+'Uw bericht moet een titel hebben',
 
 'empty_body_field' => 
 'Uw berichtveld is leeg',
@@ -420,7 +425,7 @@ $lang = array(
 'Inloggen is verplicht',
 
 'must_be_logged_in' => 
-'Dit pagina is alleen toegankelijk voor leden met de juiste toegangsprivileges',
+'Deze pagina is alleen toegankelijk voor leden met de juiste toegangsprivileges',
 
 'member_registration' => 
 'Ledenregistratie',
@@ -435,19 +440,19 @@ $lang = array(
 'U bent niet geauthoriseerd om in dit forum te posten',
 
 'ban_member' => 
-'Ban Lid',
+'Ban lid',
 
 'member_is_banned' => 
 'Lid is geband',
 
 'member_banning' => 
-'Bannen van Lid',
+'Bannen van lid',
 
 'member_reinstating' => 
-'Herstel van Lid',
+'Herstel van lid',
 
 'member_banning_form' => 
-'Leden Banformulier',
+'Leden banformulier',
 
 'member_ban_warning' => 
 'Weet je zeker dat je de volgende accounts wilt bannen?',
@@ -465,7 +470,7 @@ $lang = array(
 'U kunt uw eigen account niet bannen',
 
 'ignore_member_confirmation' => 
-'Negeer Lid Bevestiging',
+'Negeer lidbevestiging',
 
 'can_not_ignore_yourself' => 
 'U kunt niet uzelf negeren',
@@ -477,10 +482,10 @@ $lang = array(
 'Negeer Lid',
 
 'unignore_member' => 
-'Stop Negeer Lid',
+'Stop negeer lid',
 
 'stop_ignoring' => 
-'Stop Negeren',
+'Stop negeren',
 
 'view_hide' => 
 'Toon / Verbergen',
@@ -528,7 +533,7 @@ $lang = array(
 'De gekozen thread bestaat niet',
 
 'topic_title' => 
-'Topic Titel',
+'Topictitel',
 
 'next' => 
 'Volg.',
@@ -744,7 +749,7 @@ $lang = array(
 'Voeg een nieuwe rij toe',
 
 'legend' => 
-'Markeer Post Legenda',
+'Legenda',
 
 'legend_new_topic' => 
 'Nieuwe Topic',

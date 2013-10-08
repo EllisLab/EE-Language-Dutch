@@ -1658,6 +1658,12 @@ $lang = array(
 'translate' => 
 'Update',
 
+'developer_logs' =>
+'U heeft %d nieuwe items in het <a href="%s">Developer Log</a>.',
+
+'important_messages' =>
+'Let op',
+
 ''=>''
 );
 

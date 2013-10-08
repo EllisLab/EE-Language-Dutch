@@ -239,6 +239,9 @@ $lang = array(
 'nav_field_group_management_short_desc' => 
 'Maak, wijzig en verwijder  Custom Velden',
 
+'nav_channel_form_settings'			=> 'Channel instellingen (front-end)',
+'nav_channel_form_settings_short_desc'	=> 'Stel channel instellingen (frond-end) in',
+
 'nav_status_group_management' => 
 'Custom Status Groupen',
 

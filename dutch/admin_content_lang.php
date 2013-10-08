@@ -1037,6 +1037,35 @@ $lang = array(
 'field_name_too_lrg' => 
 'Uw veldnaam overschrijdt de maximale lengte is ingekort. Bekijk het nogmaals',
 
+//----------------------------
+// Channel Form Settings
+//----------------------------
+
+'channel_form_settings' =>
+'Channel instellingen (front-end)',
+
+'channel_form_settings_updated' =>
+'Channel instellingen opgeslagen',
+
+'channel_form_default_status' =>
+'Standaard status',
+
+'channel_form_allow_guest_posts' =>
+'Sta gast-posts toe?',
+
+'channel_form_guest_captcha' =>
+'Captcha tonen voor gasten?',
+
+'channel_form_guest_author' =>
+'Gast auteur',
+
+'channel_form_default_status_empty' =>
+'-- gebruik channel-standaard --',
+
+//----------------------------
+// Channel Entries API
+//----------------------------
+
 'invalid_api_parameter' => 
 'Kan bericht niet maken/wijzigen. API parameter ontbreekt',
 
