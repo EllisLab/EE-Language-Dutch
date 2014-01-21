@@ -2,229 +2,229 @@
 $lang = array(
 
 
-'search_module_name' => 
+'search_module_name' =>
 'Zoeken',
 
-'search_module_description' => 
+'search_module_description' =>
 'Zoek module',
 
-'search_no_stopwords' => 
+'search_no_stopwords' =>
 'Uw zoekterm bevat woorden die niet toegestaan zijn om te zoeken',
 
-'search_exact_word' => 
+'search_exact_word' =>
 'Zoek naar het Exacte woord',
 
-'search_any_words' => 
+'search_any_words' =>
 'Zoek naar Elk Woord',
 
-'search_all_words' => 
+'search_all_words' =>
 'Zoek naar Alle Woorden',
 
-'search_keywords' => 
+'search_keywords' =>
 'Trefwoorden',
 
-'search_total_results' => 
+'search_total_results' =>
 'Totaal aantal zoekresultaten:',
 
-'search_channel' => 
+'search_channel' =>
 'Channel',
 
-'search_excerpt' => 
+'search_excerpt' =>
 'Samenvatting',
 
-'search_author' => 
+'search_author' =>
 'Auteur',
 
-'search_any_channel' => 
+'search_any_channel' =>
 'Elk Channel',
 
-'search_total_comments' => 
+'search_total_comments' =>
 'Totaal aantal reacties',
 
-'search_recent_comment_date' => 
+'search_recent_comment_date' =>
 'Recente reacties',
 
-'search_by_keyword' => 
+'search_by_keyword' =>
 'Zoeken met trefwoorden',
 
-'search_in_titles' => 
+'search_in_titles' =>
 'Alleen zoeken in titels',
 
-'search_entries' => 
+'search_entries' =>
 'Zoeken in titels en berichten',
 
-'search_everywhere' => 
+'search_everywhere' =>
 'Zoeken in titels, berichten en reacties',
 
-'search_exact_phrase_match' => 
+'search_exact_phrase_match' =>
 'Exact dezelfde zin vinden',
 
-'search_by_member_name' => 
+'search_by_member_name' =>
 'Zoeken op Leden Naam',
 
-'search_by_member_group' => 
+'search_by_member_group' =>
 'Zoek op Leden Groep',
 
-'switch_to_group' => 
+'switch_to_group' =>
 'Switch naar Groepen Zoeken',
 
-'switch_to_name' => 
+'switch_to_name' =>
 'Switch naar Naam Zoeken',
 
-'search_all_groups' => 
+'search_all_groups' =>
 'Zoeken op Alle Leden Groepen',
 
-'search_exact_name_match' => 
+'search_exact_name_match' =>
 'Exacte Naam vinden',
 
-'search_channels' => 
+'search_channels' =>
 'Channels',
 
-'search_categories' => 
+'search_categories' =>
 'Categorie&#235;n',
 
-'search_also_search_comments' => 
+'search_also_search_comments' =>
 'Ook zoeken in reacties',
 
-'search_any_date' => 
+'search_any_date' =>
 'Alle data',
 
-'search_today_and' => 
+'search_today_and' =>
 'Vandaag en...',
 
-'search_this_week_and' => 
+'search_this_week_and' =>
 'Deze week en...',
 
-'search_one_month_ago_and' => 
+'search_one_month_ago_and' =>
 '1 maand geleden en...',
 
-'search_three_months_ago_and' => 
+'search_three_months_ago_and' =>
 '3 maanden geleden en...',
 
-'search_six_months_ago_and' => 
+'search_six_months_ago_and' =>
 '6 maanden geleden en...',
 
-'search_one_year_ago_and' => 
+'search_one_year_ago_and' =>
 '1 jaar geleden en...',
 
-'search_newer' => 
+'search_newer' =>
 'Nieuwer',
 
-'search_older' => 
+'search_older' =>
 'Ouder',
 
-'search_sort_results_by' => 
+'search_sort_results_by' =>
 'Resultaten weergeven op',
 
-'search_date' => 
+'search_date' =>
 'Datum',
 
-'search_title' => 
+'search_title' =>
 'Titel',
 
-'search_most_comments' => 
+'search_most_comments' =>
 'Meeste Reacties',
 
-'search_recent_comment' => 
+'search_recent_comment' =>
 'Meest recente reactie',
 
-'search_descending' => 
-'Oplopend',
-
-'search_ascending' => 
+'search_descending' =>
 'Aflopend',
 
-'search_entries_from' => 
+'search_ascending' =>
+'Oplopend',
+
+'search_entries_from' =>
 'Zoek berichten van',
 
-'search_any_category' => 
+'search_any_category' =>
 'Alle categorie&#235;n',
 
-'search_engine' => 
+'search_engine' =>
 'Zoekmachine',
 
-'search' => 
+'search' =>
 'Zoeken',
 
-'search_path_error' => 
+'search_path_error' =>
 'Het zoek pad bevat een fout. Neem aub contact op met de administrator',
 
-'search_not_allowed' => 
+'search_not_allowed' =>
 'U bent niet gemachtigd om de zoekmachine te gebruiken',
 
-'search_no_keywords' => 
+'search_no_keywords' =>
 'U heeft geen zoekterm ingevuld',
 
-'search_min_length' => 
+'search_min_length' =>
 'Zoektermen moeten tenminste uit %x karakters bestaan',
 
-'search_result_heading' => 
+'search_result_heading' =>
 'Zoek Resultaten:',
 
-'search_no_result' => 
+'search_no_result' =>
 'Uw zoekopdracht heeft geen resultaten opgeleverd.',
 
-'search_time_not_expired' => 
+'search_time_not_expired' =>
 'U bent alleen gemachtigd elke %x seconden een zoekopdracht uit te voeren.',
 
-'search_results' => 
+'search_results' =>
 'Zoekresultaten',
 
-'search_type' => 
+'search_type' =>
 'Zoek Type',
 
-'none_of_these_words' => 
+'none_of_these_words' =>
 'Geen van deze woorden',
 
-'search_in' => 
+'search_in' =>
 'Zoeken in',
 
-'search_in_channels' => 
+'search_in_channels' =>
 'Zoeken in Channels',
 
-'any_field' => 
+'any_field' =>
 'Alle Velden',
 
-'search_in_articles' => 
+'search_in_articles' =>
 'Zoeken in artikelen',
 
-'search_in_titles_articles' => 
+'search_in_titles_articles' =>
 'zoeken in Titels en Artikelen',
 
-'search_content_from' => 
+'search_content_from' =>
 'Zoek berichten van',
 
-'date_since' => 
+'date_since' =>
 'Sinds',
 
-'today' => 
+'today' =>
 'Vandaag',
 
-'past_week' => 
+'past_week' =>
 'Afgelopen week',
 
-'past_month' => 
+'past_month' =>
 'Afgelopen maand',
 
-'past_six_months' => 
+'past_six_months' =>
 'Afgelopen 6 maanden',
 
-'past_year' => 
+'past_year' =>
 'Afgelopen jaar',
 
-'categories' => 
+'categories' =>
 'Categorie&#235;n',
 
-'any_category' => 
+'any_category' =>
 'Alle Categorie&#235;n',
 
-'rebuild_search_index' => 
+'rebuild_search_index' =>
 'Zoek Index Herbouwen',
 
-'searched_for' => 
+'searched_for' =>
 'Gezocht naar:',
 
-'translate' => 
+'translate' =>
 'Update',
 
 ''=>''
