@@ -5,7 +5,9 @@ See [information.rst](information.rst) for copyright and license information
 
 ## Changelog
 
-- 2014-12 Added missing lines for 2.9.2
+- 2014-12
+  - Added missing lines for 2.9.2
+  - Added CodeIgniter translations (mainly form validation)
 - Based on the original translation work by Willem de Boer (@boer025)
 
 
